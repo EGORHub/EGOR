@@ -3,7 +3,7 @@ package com.egor.service.model.slide2;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
-public class ProgressBar extends FilterType {
+public class Slider extends FilterType {
 	private int startValue;
 	private int endValue;
 	private int defaultStartValue;

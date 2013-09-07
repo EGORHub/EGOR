@@ -5,7 +5,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 
 public enum FilterEnum {
 	CUISINE("Cuisine", GroupEnum.EAT, FilterTypeEnum.CHECKBOX, "Eat_Details","cuisine"), 
-	DISTANCE("Distance", GroupEnum.EAT, FilterTypeEnum.PROGRESSBAR, "Eat_Details", "cuisine"),
+	DISTANCE("Distance", GroupEnum.EAT, FilterTypeEnum.SLIDER, "Eat_Details", "cuisine"),
 	TIME("Time", GroupEnum.MOVIE, FilterTypeEnum.DROPDOWN, "", ""),
 	AGE("Age",GroupEnum.MOVIE,FilterTypeEnum.RADIOBOX,"","");
 	

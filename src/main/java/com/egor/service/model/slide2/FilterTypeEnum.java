@@ -5,7 +5,7 @@ import org.apache.commons.lang3.builder.ToStringStyle;
 
 public enum FilterTypeEnum {
 	CHECKBOX ("Checkbox"),
-	PROGRESSBAR ("Progress Bar"),
+	SLIDER ("Slider"),
 	RADIOBOX ("Radiobox"),
 	DROPDOWN ("Dropdown");
 	

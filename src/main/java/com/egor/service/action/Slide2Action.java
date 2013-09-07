@@ -18,7 +18,7 @@ import com.egor.service.model.slide2.DropDown;
 import com.egor.service.model.slide2.FilterEnum;
 import com.egor.service.model.slide2.FilterType;
 import com.egor.service.model.slide2.Group;
-import com.egor.service.model.slide2.ProgressBar;
+import com.egor.service.model.slide2.Slider;
 import com.egor.service.model.slide2.RadioBox;
 import com.egor.service.model.slide2.Slide2Model;
 import com.opensymphony.xwork2.ModelDriven;
@@ -77,7 +77,7 @@ public class Slide2Action implements ModelDriven<Slide2Model> {
 	private SortedMap<Integer,FilterType> getDummyEatSortedFilterTypeMap() {
 		SortedMap<Integer,FilterType> sortedFilterTypeMap = new TreeMap<Integer, FilterType>();
 		
-		ProgressBar distanceFilter = new ProgressBar();
+		Slider distanceFilter = new Slider();
 		distanceFilter.setFilterEnum(FilterEnum.DISTANCE);
 		distanceFilter.setStartValue(0);
 		distanceFilter.setEndValue(12);
@@ -118,7 +118,7 @@ public class Slide2Action implements ModelDriven<Slide2Model> {
 	private SortedMap<Integer,FilterType> getDummyMovieSortedFilterTypeMap() {
 		SortedMap<Integer,FilterType> sortedFilterTypeMap = new TreeMap<Integer, FilterType>();
 		
-		ProgressBar distanceFilter = new ProgressBar();
+		Slider distanceFilter = new Slider();
 		distanceFilter.setFilterEnum(FilterEnum.DISTANCE);
 		distanceFilter.setStartValue(0);
 		distanceFilter.setEndValue(20);

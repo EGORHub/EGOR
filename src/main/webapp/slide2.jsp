@@ -15,7 +15,6 @@
 	<br />
 
 	<div style="font-size: 18px">
-
 		Start Time: <b><s:property
 				value="slide2Model.userDefinedAttribute.startTime.startTime" /></b> <br />
 		End Time: <b><s:property
@@ -43,7 +42,7 @@
 					<div id="filters" style="float: left; width: 30% height:100%">
 						<s:iterator value="value.sortedFilterTypeMap.entrySet()">
 							<s:if
-								test="value.filterEnum.filterTypeEnum==@com.egor.service.model.slide2.FilterTypeEnum@PROGRESSBAR">
+								test="value.filterEnum.filterTypeEnum==@com.egor.service.model.slide2.FilterTypeEnum@SLIDER">
 								<s:property value="value.filterEnum.filterName" />
 								<br />
 								<sj:slider min="value.startValue" max="value.endValue" step="1"
@@ -88,7 +87,6 @@
 								Rating <s:property value="value.rating" />
 								</sj:accordionItem>
 							</sj:accordion>
-<%-- 							<sj:a> Remove me</sj:a> --%>
 						</s:iterator>
 					</div>
 
