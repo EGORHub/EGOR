@@ -8,10 +8,6 @@
 </head>
 <body>
 <h2>EGOR - Planner</h2>
-<s:form>
-	<s:textfield key="planParam" />
-	<s:submit action="createPlanAction" value="Plan"/>
-	<s:submit action="createInstantPlanAction" value="Instant Plan"/>
-</s:form>
+
 </body>
 </html>
